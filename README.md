@@ -13,7 +13,7 @@ The main desktop has four icons:
 - Projects
 - Find Me
 
-![Uploading image.png…]()
+<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/ba9bd937-07c2-40be-a1ab-10d38d32446f" />
 
 
 
