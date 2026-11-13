@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.desktop {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #07130d, #102b1d, #06100b);
+    position: relative;
+    overflow: hidden;
+}
+
+.desktop::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: rgba(0, 255, 140, 0.08);
+    border-radius: 50%;
+    top: -180px;
+    right: -120px;
+}
+
+.welcome {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.welcome h1 {
+    margin: 0;
+    font-size: 38px;
+}
+
+.welcome p {
+    margin-top: 8px;
+    color: #a8b8ae;
+}
+
+.icons {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    display: flex;
+    gap: 25px;
+}
+
+.app-icon {
+    width: 100px;
+    height: 105px;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.app-icon:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.app-icon span {
+    font-size: 38px;
+    display: block;
+}
+
+.app-icon p {
+    margin: 8px 0 0;
+    font-size: 14px;
+}
+
+.window {
+    display: none;
+    position: absolute;
+    width: 420px;
+    min-height: 260px;
+    background: #101713;
+    border: 1px solid #385344;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.45);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.window-bar {
+    height: 42px;
+    background: #18251d;
+    border-bottom: 1px solid #385344;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
+
+.window-bar span {
+    font-size: 14px;
+}
+
+.window-bar button {
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 6px;
+    background: #2a382f;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.window-bar button:hover {
+    background: #d94c4c;
+}
+
+.window-content {
+    padding: 25px;
+    color: #dce6df;
+}
+
+.window-content h2 {
+    margin-top: 0;
+}
+
+.window-content p {
+    line-height: 1.6;
+    color: #b8c7bd;
+}
+
+.window-content li {
+    margin: 12px 0;
+    color: #c7d5cc;
+}
+
+.project {
+    padding: 10px 0;
+    border-bottom: 1px solid #293a30;
+}
+
+.project h3 {
+    margin: 0 0 5px;
+}
+
+.project p {
+    margin: 0;
+}
+
+.dock {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background: rgba(12, 20, 16, 0.85);
+    border: 1px solid #304438;
+    border-radius: 20px;
+    color: #9fb0a5;
+    font-size: 13px;
+}
+
+@media (max-width: 600px) {
+    .icons {
+        left: 20px;
+        gap: 5px;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    .welcome {
+        left: 20px;
+    }
+
+    .window {
+        width: 90%;
+    }
+}
