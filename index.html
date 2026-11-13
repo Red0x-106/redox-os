@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>red0x OS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="desktop">
+
+        <div class="welcome">
+            <h1>red0x OS</h1>
+            <p>Welcome to my little corner of the internet.</p>
+        </div>
+
+        <div class="icons">
+
+            <button class="app-icon" onclick="openWindow('aboutWindow')">
+                <span>👤</span>
+                <p>About Me</p>
+            </button>
+
+            <button class="app-icon" onclick="openWindow('interestsWindow')">
+                <span>🎮</span>
+                <p>Interests</p>
+            </button>
+
+            <button class="app-icon" onclick="openWindow('projectsWindow')">
+                <span>💻</span>
+                <p>Projects</p>
+            </button>
+
+            <button class="app-icon" onclick="openWindow('contactWindow')">
+                <span>🔗</span>
+                <p>Links</p>
+            </button>
+
+        </div>
+
+        <div class="window" id="aboutWindow">
+            <div class="window-bar">
+                <span>About Me</span>
+                <button onclick="closeWindow('aboutWindow')">×</button>
+            </div>
+
+            <div class="window-content">
+                <h2>Hey, I'm red0x 👋</h2>
+                <p>
+                    I'm a student who likes coding, making projects,
+                    experimenting with technology and learning new things.
+                </p>
+                <p>
+                    I mostly enjoy building small websites, apps and
+                    random ideas that come to my mind.
+                </p>
+            </div>
+        </div>
+
+        <div class="window" id="interestsWindow">
+            <div class="window-bar">
+                <span>Interests</span>
+                <button onclick="closeWindow('interestsWindow')">×</button>
+            </div>
+
+            <div class="window-content">
+                <h2>Things I Like</h2>
+                <ul>
+                    <li>💻 Coding</li>
+                    <li>🎮 Gaming</li>
+                    <li>📺 Anime</li>
+                    <li>🚀 Technology</li>
+                    <li>🛠️ Building projects</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="window" id="projectsWindow">
+            <div class="window-bar">
+                <span>Projects</span>
+                <button onclick="closeWindow('projectsWindow')">×</button>
+            </div>
+
+            <div class="window-content">
+                <h2>My Projects</h2>
+
+                <div class="project">
+                    <h3>NEXORA OS</h3>
+                    <p>A browser-based desktop environment.</p>
+                </div>
+
+                <div class="project">
+                    <h3>Lost Signal</h3>
+                    <p>A small puzzle and mystery project.</p>
+                </div>
+
+                <div class="project">
+                    <h3>PaintBox</h3>
+                    <p>A simple browser drawing app.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="window" id="contactWindow">
+            <div class="window-bar">
+                <span>Links</span>
+                <button onclick="closeWindow('contactWindow')">×</button>
+            </div>
+
+            <div class="window-content">
+                <h2>Find Me</h2>
+                <p>GitHub: Red0x-106</p>
+                <p>Instagram: redox_106</p>
+            </div>
+        </div>
+
+        <div class="dock">
+            <span>red0x OS</span>
+            <span>•</span>
+            <span>Click an icon to explore</span>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
