@@ -1,106 +1,55 @@
 # red0x OS
 
-red0x OS is a small browser-based desktop interface I made using HTML, CSS and JavaScript.
+red0x OS is a small browser desktop i made using html css and javascript.
 
-I wanted to make something that feels a little like an operating system instead of making another normal portfolio page. It has a desktop screen, app-style icons and small windows that open when you click on them.
+i wanted to make something different from a normal portfolio so i made this small os type website with some apps and windows.
 
-Live at:-[https://red0x-106.github.io/redox-os/](https://red0x-106.github.io/redox-os/)
+live: https://red0x-106.github.io/redox-os/
 
+## what is in it
 
-## What it does
+there are 4 icons on the desktop:
 
-The main desktop has four icons:
+- about me
+- interests
+- projects
+- find me
 
-- About Me
-- Interests
-- Projects
-- Find Me
+<img width="1919" height="915" alt="red0x OS" src="https://github.com/user-attachments/assets/ba9bd937-07c2-40be-a1ab-10d38d32446f" />
 
-<img width="1919" height="915" alt="image" src="https://github.com/user-attachments/assets/ba9bd937-07c2-40be-a1ab-10d38d32446f" />
+when you click the icons their window opens and you can close it again.
 
+## features
 
+- desktop ui
+- custom wallpaper
+- different windows
+- project links
+- github and instagram links
+- responsive layout
+- simple javascript window controls
 
-Clicking an icon opens its own window. Each window has a close button so it can be closed again.
+## files
 
-The Projects section contains links to some of my other projects, and the Find Me section has my GitHub and Instagram.
+index.html 
+style.css 
+script.js
+wallpaper.png 
 
-## Features
+## how i made it
 
-- Desktop-style interface
-- Custom wallpaper
-- About Me window
-- Interests window
-- Projects window
-- Find Me window
-- Open and close windows using JavaScript
-- Links to my projects
-- Links to my GitHub and Instagram
-- Simple responsive layout for smaller screens
-- Hover effects for buttons and links
+i used html for the page, css for the design and javascript for opening and closing the windows.
 
-## Files
+## running it
 
-### index.html
+just download the repo and open `index.html`.
 
-This contains the main structure of the desktop, icons and all the windows.
+no setup needed.
 
-### style.css
+## why i made it
 
-This handles the appearance of the desktop, windows, buttons, text, spacing, colors and responsive layout.
+i just wanted to make a portfolio but in a different way, so instead of a normal page i made it look like a small desktop.
 
-### script.js
-
-This handles opening and closing the windows when an icon or close button is clicked.
-
-### wallpaper.png
-
-This is the wallpaper used as the desktop background.
-
-## Projects shown in red0x OS
-
-Some of the projects linked inside the OS are:
-
-- NEXORA OS — a browser-based desktop environment
-- Lost Signal — a puzzle and mystery project
-- PaintBox — a browser drawing app
-- Image Converter — an image format converter
-- Personal Dashboard — a dashboard I made for tracking my work
-
-## How I made it
-
-I built the project with basic web technologies:
-
-HTML for the structure, CSS for the design, and JavaScript for the window controls.
-
-I kept the JavaScript simple. Each window has an ID, and the `openWindow()` and `closeWindow()` functions change whether that window is visible.
-
-## What I learned
-
-While making this project, I got more practice with:
-
-- HTML page structure
-- CSS positioning
-- Flexbox
-- Responsive design
-- Buttons and links
-- JavaScript functions
-- Opening and closing elements with JavaScript
-- Connecting different projects through links
-
-I also learned how a simple website can be made to feel more like an actual interface by changing how the content is displayed.
-
-## Running it
-
-There is no setup or installation needed.
-
-Just download or clone the repository and open `index.html` in a browser.
-
-## Why I made it
-
-I made red0x OS because I wanted to try something different from a normal portfolio website. Instead of putting everything on one page, I made the information feel like it is inside a small desktop environment.
-
-This is a simple project, but it was fun to build and experiment with.
-
-## Made by
+## made by
 
 red0x
